@@ -1,0 +1,89 @@
+body{
+    margin: 70px;
+    font-family: 'poppins', sans-serif;
+    text-align: justify;
+    background-color: rgb(197, 224, 248);
+    font-size: 18px;
+}
+
+h1{
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    color: #0044c2;
+    -webkit-text-stroke: 2px #000000;
+    text-shadow: 2px 2px 4px black;
+}
+
+h2{
+    color: #0044c2;
+    -webkit-text-stroke: 1px #000000;
+    text-shadow: 2px 2px 2px black
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+    color: #0044c2;
+    -webkit-text-stroke: 1px #000000;
+    text-shadow: 2px 2px 2px black
+}
+
+img{
+    border-radius: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.container img{
+    width: 1000px;
+    height: 600px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+.carrusel{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    position: relative;
+}
+
+.elemento{
+    flex: 1 0 auto;
+    margin: 0 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.texto{
+    position: absolute;
+    text-align: center;
+    padding: 0 105px;
+    top: 250px;
+    color: black;
+    font-size: 18px;
+}
+
+.contenedor{
+    border-radius: 7px;
+    background-color: azure;
+    margin: 35px;
+}
+
+.contenedor p{
+    margin: 30px;
+    margin-top: 10px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso básico y sencillo de redes</title>
+    <link rel="stylesheet" href="ab.css">
+</head>
+<body>
+
+<!-- encabezado -->
+    <header>
+        <nav>
+            <h1>Curso de Redes</h1>
+        </nav>
+    </header>
+<!-- fin encabezado -->
+
+    <h2>Materiales</h2>
+
+    <ul>
+        <li>Cable UTP de 2 o 3 metros de largo, categoría 5 o 5e</li>
+        <li>Ponchadora</li>
+        <li>Conectores RJ-45(puede ser que necesitan más de cuatro conectores)</li>
+        <li>Pelacables(puede ser opcional)</li>
+        <li>Verificador de mapa de cables de Ethernet o medidor de cables LAN, más resumido</li>
+    </ul>
+
+       <div class="carrusel">
+            <div class="elemento"><img src="cable utp.jpg">
+                <div class="texto">
+                    <h4>Cable UTP</h4>
+                </div>
+            </div>
+            <div class="elemento"><img src="Ponchadora.jpg">
+                <div class="texto">
+                    <h4>Ponchadora</h4>
+                </div>
+            </div>
+            <div class="elemento"><img src="cabezal.jpg">
+                <div class="texto">
+                    <h4>Conectores RJ45</h4>
+                </div>
+            </div>
+            <div class="elemento"><img src="pelacable.jpg">
+                <div class="texto">
+                    <h4>Pelacables</h4>
+                </div>
+            </div>
+            <div class="elemento"><img src="medidor.jpg">
+                <div class="texto">
+                    <h4>Medidor</h4>
+                </div>
+            </div>
+        </div>
+
+    <p>Una vez ya tengamos los materiales lo primero que debe saber es el tipo de cableado que va a realizar, puede ser directo o cruzado. En el cable directo ambos extremos tienen el mismo estándar, mientras que en el cruzado un extremo tiene el estándar T568A y el otro el estándar T568B.</p>
+    <p>Existen dos estándares de cableado que son los más conocidos y sencillos de aprender que son: el estandar T568A y T568B.</p>
+
+    <h3>Diagrama de Cables</h3>
+
+    <div class="container">
+        <img src="d.png">
+    </div>
+
+    <div class="contenedor">
+        <ol>
+            <li>Paso</li>
+            <p>Una vez se tenga medida la longitud del cable UTP, con la ponchadora o pelacable realizará un corte al cable protector sin dañar los cables internos. El corte puede ser del tamaño de la punta de su dedo.</p>
+            <p>Luego de cortar el cable protector verá unos cable de colores azul, verde, naranja y chocolate, cada uno con un cable blanco con rayas de los colores mencionados. En algunos casos los colores variarán a rojos o negros o incluso los colores serán más palidos, esto no será un inconveniente pues el proceso será siendo el mismo.</p>
+            
+            <li>Paso</li>
+            <p>El siguiente paso será el trenzado. En las imagenes anteriores verá los estándares para trenzar los cables con sus colores y números.</p>
+            <p>Una vez los cables estén bien organizados por color, agarrará un cabezal RJ-45 y medirá que tan largo deben quedar los cables de colores para entrar en el cabezal. Debe asegurarse de que al menos una pequeña parte del cable protector quede dentro del cabezal para asegurar mejor el cable y realizar un trabajo más limpio.</p>
+            <p>Ya medido el tamaño de los cables de colores con el cabezal, lo siguiente será con la ponchadora cortar el sobrante de cables asegurandose que todos queden lo más parejos posibles. Introducirá los cables en el cabezal y al revisar que todos los cables lleguen hasta el final. Su ponchadora tendrá unos orificios con la forma del cabezal RJ-45 por los que debe introducir el mimsmo y al introducirlos solo debe apretar generando algo de presión hasta que ningun pin sobresalga.</p>
+            
+            <li>Paso</li>
+            <p>Con ambos extremos del cable ponchados ahora comprobará si el cableado está bien hecho con ayuda del medidor. El medidor consta de dos partes cada una con 8 leds. Todas las leds del medidor deben encenderse una por una, ambas partes a la par dependiendo del estándar utilizado.</p>
+            
+            <li>Paso</li>
+            <p>Como último paso comprobará si su cable permite la comunicación entre dispositivos host e intermedios.</p>
+            <p>Para esto necesitará dos computadoras, en ambas computadoras deberá entrar en Símbolo de Sistema o CMD, ingresar el comando <strong>ipconfig</strong> y darle enter, buscar la opción que dice adaptador Ethernet Ethernet y en una de las computadoras escribir el comando <strong>ping</strong> y el ip de la otra computadora. Como resultado de que el ping es correcto debería aparecerle <strong>4 paquetes enviados, 4 paquetes recibidos y 0 perdidos</strong>.</p>
+            <p>Debe ser el mismo resultado al conectar dos computadoras con el cable cruzado o con algún dispositivo intermedio.</p>
+        </ol>
+    </div>
+
+
+    
+</body>
+</html>
